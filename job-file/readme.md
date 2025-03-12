@@ -7,6 +7,8 @@ using this repo: https://github.com/php-mime-mail-parser/php-mime-mail-parser
 2. php must have mbstring and mailparser extensions enabled (could be tricky to install, so i followed the tutorial in the guthub link, and worked with php 8.1)
     sudo apt install php-cli php-mailparse
 
+    I basically had to compile and build the extension manually, then move the so file, and enable it
+
 
 3. run the "php job.php" command from as a cronjob (crontab)
 
