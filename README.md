@@ -55,4 +55,9 @@ This document outlines the available endpoints in our API. For all calls (store,
 4. Start the development server with `php artisan serve`
 5. Access the endpoints as described above
 
+### Libraries used
+
+Used the mailparser library https://github.com/php-mime-mail-parser/php-mime-mail-parser
+had a hard time installing the mailparse extension in php, so i had to manually compile it.
+
 ---
