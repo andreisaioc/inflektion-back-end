@@ -12,9 +12,16 @@ Then check in docker and run the laravel app.
 
 php artisan app:parse-email-content --output
 
+## Scheduling the command
+
+use crontab for that
+
+* * * * * php /path-to-project/artisan schedule:run >> /dev/null 2>&1
+
+
 # API Documentation
 
-This document outlines the available endpoints in our API. For all calls (store, update, getall, etc) you need to use a token, tahts retrieved by mock-token
+This document outlines the available endpoints in our API. For all calls (store, update, getall, etc) you need to use a token, that is retrieved by mock-token. Login is there but its not used so use the lock token.
 
 ## 📋 API Routes
 
