@@ -8,6 +8,10 @@ docker-compose up -d
 
 Then check in docker and run the laravel app.
 
+## Running the command
+
+php artisan app:parse-email-content --output
+
 # API Documentation
 
 This document outlines the available endpoints in our API. For all calls (store, update, getall, etc) you need to use a token, tahts retrieved by mock-token
